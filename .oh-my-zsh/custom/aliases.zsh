@@ -3,3 +3,4 @@ alias hostsupdate='bash -c "$(curl -fsSL https://raw.githubusercontent.com/volta
 alias iplist='nmap -sP 192.168.2.1/24'
 alias mntdu='sudo ncdu /mnt'
 alias sysdu='sudo ncdu / --exclude /mnt'
+alias upgrade='bash -c "$(curl -fsSL https://raw.githubusercontent.com/voltamage/common/master/tmp/upgrader)"'
